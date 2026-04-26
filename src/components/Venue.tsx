@@ -6,7 +6,7 @@ const dressImg = 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w
 export default function Venue() {
   return (
     <div className="min-h-screen flex items-center bg-cream">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-24 w-full">
+      <div className="max-w-7xl mx-auto py-24 w-full" style={{ paddingLeft: 'clamp(1.5rem, 5vw, 3rem)', paddingRight: 'clamp(1.5rem, 5vw, 3rem)' }}>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

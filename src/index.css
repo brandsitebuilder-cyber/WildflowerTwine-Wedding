@@ -23,7 +23,6 @@
 html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
-  overflow-x: hidden;
 }
 
 body {
@@ -31,7 +30,6 @@ body {
   background: var(--color-cream);
   color: var(--color-charcoal);
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
 }
 
 h1, h2, h3 {

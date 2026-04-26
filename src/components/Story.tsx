@@ -5,7 +5,7 @@ const storyImg = 'https://images.unsplash.com/photo-1529636798458-92182e662485?w
 export default function Story() {
   return (
     <div className="min-h-screen flex items-center bg-cream">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-24">
+      <div className="max-w-7xl mx-auto py-24" style={{ paddingLeft: 'clamp(1.5rem, 5vw, 3rem)', paddingRight: 'clamp(1.5rem, 5vw, 3rem)' }}>
         <div className="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
           {/* Image */}
           <motion.div
