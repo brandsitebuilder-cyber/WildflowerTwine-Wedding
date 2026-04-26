@@ -24,7 +24,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="text-rose/90 text-lg md:text-xl tracking-[0.3em] uppercase font-light mb-6"
+          className="text-rose text-lg md:text-xl tracking-[0.15em] uppercase font-normal mb-6"
         >
           We're Getting Married
         </motion.span>
@@ -36,7 +36,7 @@ export default function Hero() {
         >
           <h1 className="text-6xl md:text-8xl lg:text-9xl text-white font-heading font-light tracking-tight leading-none mb-6">
             Emma
-            <span className="block text-2xl md:text-4xl my-4 font-script font-normal text-rose/80">&</span>
+            <span className="block text-2xl md:text-4xl my-4 font-script font-normal text-rose">&</span>
             James
           </h1>
         </motion.div>
@@ -47,10 +47,10 @@ export default function Hero() {
           transition={{ duration: 1, delay: 1 }}
           className="space-y-3"
         >
-          <p className="text-white/80 text-sm md:text-base uppercase tracking-[0.2em] font-light">
+          <p className="text-white text-sm md:text-base uppercase tracking-[0.15em] font-normal">
             15 October 2026
           </p>
-          <p className="text-white/60 text-xs md:text-sm uppercase tracking-[0.15em]">
+          <p className="text-white/80 text-xs md:text-sm uppercase tracking-[0.1em]">
             The Hidden Barn · Stellenbosch Winelands
           </p>
         </motion.div>

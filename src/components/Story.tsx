@@ -35,7 +35,7 @@ export default function Story() {
             <span className="section-label">How it all began</span>
             <h2 className="section-title mt-2 mb-8">Our Story</h2>
 
-            <div className="space-y-5 text-charcoal/70 leading-[2] font-light text-sm md:text-base">
+            <div className="space-y-5 text-charcoal leading-[1.8] font-normal text-base md:text-lg">
               <p>
                 It started with a shared love for good coffee, old books, and long walks through the vineyards. Emma was curating a small art exhibition at a local gallery when James walked in, looking for <span className="italic">"something that reminded him of home."</span> That something turned out to be a painting of a wildflower field that now hangs in their living room.
               </p>

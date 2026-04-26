@@ -31,9 +31,9 @@ export default function Rsvp() {
           transition={{ duration: 0.8 }}
           className="text-center text-white mb-12"
         >
-          <span className="text-rose/80 text-lg font-script">Join us</span>
+          <span className="text-rose text-lg font-script">Join us</span>
           <h2 className="font-heading text-4xl md:text-5xl mt-2 mb-4">RSVP</h2>
-          <p className="text-white/60 font-light text-sm md:text-base max-w-lg mx-auto">
+          <p className="text-white/85 font-light text-sm md:text-base max-w-lg mx-auto">
             Please confirm your attendance before 31 August 2026. We can't wait to celebrate with you!
           </p>
         </motion.div>

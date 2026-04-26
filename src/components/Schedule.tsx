@@ -50,7 +50,7 @@ export default function Schedule() {
               <div className="ml-12 md:ml-0 md:w-1/2 bg-white/60 backdrop-blur p-6 rounded-sm">
                 <span className="text-terracotta font-heading text-2xl font-medium">{item.time}</span>
                 <h3 className="font-heading text-lg text-charcoal mt-1">{item.label}</h3>
-                <p className="text-charcoal/60 text-sm mt-1 font-light">{item.detail}</p>
+                <p className="text-charcoal/80 text-base mt-1 font-normal">{item.detail}</p>
               </div>
             </motion.div>
           ))}
