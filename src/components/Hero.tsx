@@ -15,7 +15,7 @@ export default function Hero() {
           alt="Emma & James"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/60" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
       </div>
 
       {/* Content */}
@@ -24,7 +24,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="text-rose text-lg md:text-xl tracking-[0.15em] uppercase font-normal mb-6"
+          className="text-white/95 text-lg md:text-xl tracking-[0.2em] uppercase font-normal mb-6 drop-shadow-sm"
         >
           We're Getting Married
         </motion.span>
@@ -34,7 +34,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          <h1 className="text-6xl md:text-8xl lg:text-9xl text-white font-heading font-light tracking-tight leading-none mb-6">
+          <h1 className="text-6xl md:text-8xl lg:text-9xl text-white font-heading font-medium tracking-tight leading-none mb-6">
             Emma
             <span className="block text-2xl md:text-4xl my-4 font-script font-normal text-rose">&</span>
             James
@@ -47,10 +47,10 @@ export default function Hero() {
           transition={{ duration: 1, delay: 1 }}
           className="space-y-3"
         >
-          <p className="text-white text-sm md:text-base uppercase tracking-[0.15em] font-normal">
+          <p className="text-white text-sm md:text-base uppercase tracking-[0.15em] font-medium">
             15 October 2026
           </p>
-          <p className="text-white/80 text-xs md:text-sm uppercase tracking-[0.1em]">
+          <p className="text-white/85 text-xs md:text-sm uppercase tracking-[0.1em] font-normal">
             The Hidden Barn · Stellenbosch Winelands
           </p>
         </motion.div>
